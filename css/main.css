@@ -1,3 +1,7 @@
+html {
+  background-color: #fdf6e3;
+}
+
 body {
   background-color: #fdf6e3;
 }
@@ -34,7 +38,7 @@ nav ul {
   color: #93a1a1;
 }
 
-main div .dfn {
+#facts > div {
   background-color: #b58900;
 }
 
@@ -46,7 +50,7 @@ ul li:first-child {
   background-color: #719e07;
 }
 
-a:last-child {
+.no-highlight:last-child {
   background-color: #2694d8;
 }
 
