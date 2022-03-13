@@ -46,7 +46,7 @@ ul li:first-child {
   background-color: #719e07;
 }
 
-li rel="external" {
+a:last-child {
   background-color: #2694d8;
 }
 
@@ -66,6 +66,6 @@ ol li:last-child {
   background-color: #586e75;
 }
 
-.types li:nth-child(3) {
+.types li:nth-child(3n+3) {
   background-color: #d04b16;
 }
