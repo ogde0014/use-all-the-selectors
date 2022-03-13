@@ -1,5 +1,10 @@
 html {
+  box-sizing: border-box;
   background-color: #fdf6e3;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -10,8 +15,13 @@ header footer {
   font-size: 1.5rem;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 nav ul {
   font-family: sans-serif;
+  font-size: 1.5rem;
 }
 
 .logo {
@@ -43,14 +53,26 @@ nav ul {
 }
 
 .dfn strong {
+  color: #000;
+}
+
+.dfn strong:nth-child(2) {
   color: #fff;
+}
+
+div {
+  background-color: #b58900;
 }
 
 ul li:first-child {
   background-color: #719e07;
 }
 
-.no-highlight:last-child {
+a:not(.no-highlight) {
+  background-color: #719e07;
+}
+
+[rel="external"] {
   background-color: #2694d8;
 }
 
